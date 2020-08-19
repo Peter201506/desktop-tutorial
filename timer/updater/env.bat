@@ -1,0 +1,2 @@
+set TIMER_APP_UPDATER_FOLDER=/screening/updater/
+CD %TIMER_APP_UPDATER_FOLDER%

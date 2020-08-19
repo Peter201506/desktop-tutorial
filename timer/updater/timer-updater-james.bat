@@ -1,2 +1,3 @@
-env.bat
-java -Xmx512M -jar timer-auto-updater-1.0.jar james
+call env.bat
+CD %TIMER_APP_UPDATER_FOLDER%
+java -Xmx512M -jar %TIMER_APP_FILENAME% james/

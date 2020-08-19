@@ -1,2 +1,2 @@
-set TIMER_APP_UPDATER_FOLDER=/screening/updater/
-CD %TIMER_APP_UPDATER_FOLDER%
+set TIMER_APP_UPDATER_FOLDER=/screen/updater/
+set TIMER_APP_FILENAME=timer-auto-updater-1.0.jar

@@ -1,3 +1,7 @@
+@echo off
 call env.bat
 CD %TIMER_APP_UPDATER_FOLDER%
-java -Xmx512M -jar %TIMER_APP_FILENAME% james/
+@rem java -Dsun.java2d.dpiaware=false -Xmx512M -jar %TIMER_APP_FILENAME% william/
+START /B java -Xmx512M -jar %TIMER_APP_FILENAME% james/
+@echo on
+exit /b
